@@ -36,6 +36,7 @@ plt.title(f"{ticker} Golden Cross/Death Cross Strategy")
 plt.xlabel("Date")
 plt.ylabel("Price ($)")
 plt.legend()
+plt.savefig("screenshots/Golden Cross vs Death Cross.png",  dpi=200)
 plt.show()
 
 # Daily Returns
@@ -76,6 +77,8 @@ plt.plot(data['Cumulative Buyhold'], label='Buy & Hold')
 plt.plot(data['Cumulative Strategy'], label='Golden Cross Strategy')
 plt.title(f"Cumulative Returns for {ticker}: (Golden Cross vs Buy & Hold)")
 plt.legend()
+plt.ylabel("Growth of $1")
+plt.savefig("screenshots/Cumulative Returns: Golden Cross vs Buy & Hold.png", dpi=200)
 plt.show()
 
 print("\n===== Golden Cross Backtest Results ======")
