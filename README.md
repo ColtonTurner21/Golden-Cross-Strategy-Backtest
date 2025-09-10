@@ -11,21 +11,19 @@
 
 ## Results
 
-| Metric                     | Golden Cross | Buy & Hold |
-|----------------------------|--------------|------------|
-| Final Cumulative Return    | 218.07%      | 342.24%    |
-| Sharpe Ratio               | 0.93         | 1.00       |
-| CAGR                       | 21.29%       | 28.14%     |
-| Max Drawdown               | -28.04%      | -37.15%    |
-| Annualized Volatility      | 24.02%       | 29.00%     |
+## Results (NVDA, 2019–2025)
+
+| Metric                   | Golden Cross (Gross) | Golden Cross (Net, 10 bps) | Buy & Hold |
+|-------------------------|----------------------|-----------------------------|------------|
+| Average Annual Return   | 77.14%               | 77.08%                      | 77.71%     |
+| Annualized Volatility   | 47.33%               | 47.33%                      | 53.04%     |
+| Sharpe Ratio            | 1.63                 | 1.63                        | 1.47       |
+| Maximum Drawdown        | -37.55%              | -37.55%                     | -66.34%    |
+
 
 ## Insights
-- The Buy & Hold strategy outperformed the Golden Cross due to the bull market during this time
-- The Golden Cross strategy still had lower max drawdown and volatility
-- The Golden Cross can be an effective strategy to mitigate risk especially during a choppy market
+- The Buy & Hold ever so slightly out performed the Golden Cross during a period of high growth for Nvidia
+- The Golden Cross strategy had lower volatility and significantly lower drawdowns, meaning it had a smoother ride with less severe losses during market pullbacks
+- This shows that the Golden Cross can be an effective strategy for mitigating risk, while not losing too much on the returns side
 
-## How to Run
-1. Clone the repo: 'git clone https://github.com/coltonturner21/Golden-Cross-Strategy-Backtest.git'
-2. Install requirements: 'pip install yfinance pandas numpy matplotlib'
-3. Open the notebook: Golden_Cross_Strategy_Backtest.ipynb in Jupyter Notebook
-4. Run the single cell to generate plots and results
+
