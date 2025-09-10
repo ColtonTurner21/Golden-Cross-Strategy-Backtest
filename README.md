@@ -1,10 +1,12 @@
 ## Golden-Cross-Strategy-Backtest
 ## What This Project Does
-- Downloads historical stock price data for Microsoft from January 2019-Janurary 2025 using yfinance
+- Downloads historical stock price data for Nvidia from January 2019-Janurary 2025 using yfinance
 - Calculates simple moving average(SMA) for 50 day and 200 day
 - Simulates daily trading for Golden Cross and Buy & Hold
+- Incorporates transaction costs to show net-of-cost returns
 - Calculates key metrics to compare Golden Cross vs. Buy & Hold
-- Key metrics include cumulative returns, sharpe ratio, CAGR, max drawdown, and annualized volatility
+- Key metrics include cumulative returns, average annual return, annualized volatility, Sharpe ratio, and maximum drawdown
+- Applies statistical inference such as confidence intervals for mean returns, hypothesis tests, bootstrap Sharpe ratio, and normality checks
 - Plots price, moving averages, buy/sell signals, and cumulative returns
 
 ## Results
